@@ -22,7 +22,13 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.compose.animation.Crossfade
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material.Divider
 import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Surface
@@ -88,22 +94,26 @@ val dogs = listOf(
         name = "Amazon",
         subtitle = "cute",
         imageThumbId = R.drawable.dog1
-    ), Dog(
+    ),
+    Dog(
         id = "2",
         name = "Scala",
         subtitle = "cute",
         imageThumbId = R.drawable.dog2
-    ), Dog(
+    ),
+    Dog(
         id = "3",
         name = "Go",
         subtitle = "cute",
         imageThumbId = R.drawable.dog3
-    ), Dog(
+    ),
+    Dog(
         id = "4",
         name = "Java",
         subtitle = "cute",
         imageThumbId = R.drawable.dog4
-    ), Dog(
+    ),
+    Dog(
         id = "5",
         name = "Django",
         subtitle = "cute",
